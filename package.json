@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-mentoring-program",
+  "version": "1.0.0",
+  "description": "nghia_nguyen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec node_modules/.bin/babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnnghia98/nodejs-mentoring-program.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnnghia98/nodejs-mentoring-program/issues"
+  },
+  "homepage": "https://github.com/nnnghia98/nodejs-mentoring-program#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.4",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
