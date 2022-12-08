@@ -1,10 +1,8 @@
 import express, { Express, Request, Response } from "express";
-// import dotenv from "dotenv";
 import bodyParser from "body-parser";
 import { router } from "./routes";
 
-// dotenv.config();
-
+// initialize our express app
 const app: Express = express();
 const PORT = 8001;
 
@@ -19,5 +17,5 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is up and running on port number ${PORT}`);
+  console.log(`Server is up and running on port numner ${PORT}`);
 });

@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from "express";
 import bodyParser from "body-parser";
-import { router } from "./src/homeworks/task-2/routes";
+import { router } from "./src/homeworks/routes";
 
 // initialize our express app
 const app: Express = express();
